@@ -1,0 +1,35 @@
+{
+  "dataset": "iris",
+  "candidates": [
+    {
+      "k": 2,
+      "iterations": 9,
+      "final_log_likelihood": -324.70029033619943,
+      "bic": 794.7090042011903
+    },
+    {
+      "k": 3,
+      "iterations": 51,
+      "final_log_likelihood": -299.8481645472042,
+      "bic": 820.1642820346436
+    },
+    {
+      "k": 4,
+      "iterations": 76,
+      "final_log_likelihood": -273.39931416827534,
+      "bic": 842.4261106882298
+    },
+    {
+      "k": 5,
+      "iterations": 62,
+      "final_log_likelihood": -260.65048539904166,
+      "bic": 892.0879825612062
+    }
+  ],
+  "best_by_bic": {
+    "k": 2,
+    "iterations": 9,
+    "final_log_likelihood": -324.70029033619943,
+    "bic": 794.7090042011903
+  }
+}

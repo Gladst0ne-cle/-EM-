@@ -1,0 +1,76 @@
+{
+  "dataset": "iris",
+  "samples": 150,
+  "features": 4,
+  "feature_names": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "target_names": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "class_distribution": {
+    "0": 50,
+    "1": 50,
+    "2": 50
+  },
+  "iterations": 51,
+  "final_log_likelihood": -299.8481645472042,
+  "bic": 820.1642820346436,
+  "metrics": {
+    "accuracy": 0.82,
+    "ari": 0.6006861021484542,
+    "nmi": 0.6467113936056552,
+    "best_perm": [
+      1,
+      0,
+      2
+    ],
+    "confusion_matrix": [
+      [
+        50,
+        0,
+        0
+      ],
+      [
+        0,
+        35,
+        15
+      ],
+      [
+        0,
+        12,
+        38
+      ]
+    ]
+  },
+  "weights": [
+    0.312768,
+    0.333194,
+    0.354038
+  ],
+  "means": [
+    [
+      0.546565,
+      -0.642406,
+      0.523935,
+      0.328547
+    ],
+    [
+      -1.014325,
+      0.85434,
+      -1.304949,
+      -1.254924
+    ],
+    [
+      0.471754,
+      -0.23652,
+      0.76526,
+      0.890792
+    ]
+  ]
+}
